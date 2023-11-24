@@ -7,7 +7,7 @@ export default function Cities() {
         <h1>Cities</h1>
         <ul>
         {cities.map((city) => (
-                <li key={cities.id}>
+                <li key={city.id}>
                     <Link href={`cities/${city.slug}`}>{city.name}</Link>
                 </li>
                 ))}
